@@ -1,0 +1,59 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: rgb(242, 249, 252);
+}
+
+.total-siswa {
+  border-right: 1px solid white;
+}
+.biasa::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 1px;
+  margin: 5px auto;
+  background-color: #b5cff5;
+}
+
+.bg-oren {
+  background-color: orange;
+}
+.siswa,.staff,.ob {
+  position: relative;
+}
+.bungkus {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -30%;
+  width: 100%;
+  z-index: -1;
+}
+.total {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: -36%;
+  width: 100%;
+  z-index: -1;
+}
+.col-staffob {
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+.navbot a {
+  color: #979797;
+  text-decoration: none;
+}
+.navbot .active, .active ~ small {
+  color: #1d1d1d;
+  font-weight: bold;
+}
+.navbot small {
+  font-size: 12px;
+  color: #1d1d1d;
+  text-decoration: none;
+}
