@@ -1,3 +1,4 @@
+<?php require 'functions.php'; ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -13,13 +14,7 @@
   </head>
   <body>
     <!-- NAVIGATION BAR -->
-    <div class="navbot fixed-bottom pt-3 pb-1 shadow-lg bg-light">
-      <div class="row text-center">
-        <a href="index.php" class="col"><i class="fa-solid fa-house fs-5 active"></i><br><small>Dashboard</small></a>
-        <a href="#" class="col"><i class="fa-solid fa-pen-to-square fs-5"></i><br><small>Edit</small></a>
-        <a href="list.php" class="col"><i class="fa-solid fa-user fs-5"></i><br><small>Data</small></a>
-      </div>
-    </div>
+    <?php navbar("active", "", ""); ?>
     <!-- NAVIGATION BAR END -->
 
     <!-- CONTENT -->

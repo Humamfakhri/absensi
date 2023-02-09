@@ -1,0 +1,4 @@
+FITUR EXTRA
+
+1. Hilangkan form input kelas dan porsi bila memilih Grup Staff
+2. Tambahkan histori sesuai tanggal
